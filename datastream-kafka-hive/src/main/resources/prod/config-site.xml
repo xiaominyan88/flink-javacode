@@ -1,0 +1,28 @@
+<configuration>
+
+    <property>
+        <name>bootstrap.server</name>
+        <value>172.30.84.183:6667,172.30.84.184:6667,172.30.84.185:6667</value>
+    </property>
+
+    <property>
+        <name>group.id</name>
+        <value>test</value>
+    </property>
+
+    <property>
+        <name>topic</name>
+        <value>sk-test-mock</value>
+    </property>
+
+    <property>
+        <name>auto.offset.reset</name>
+        <value>latest</value>
+    </property>
+
+    <property>
+        <name>partition.assignment.strategy</name>
+        <value>org.apache.kafka.clients.consumer.RangeAssignor</value>
+    </property>
+
+</configuration>
